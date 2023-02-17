@@ -1,0 +1,125 @@
+
+
+
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Welcome to Programiz");
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+console.log("Welcome to Programiz!");
+console.log( typeof(100));
+console.log( typeof(100.50));
+console.log( typeof([100.50,200,true,false,"muhmed","ahmed"]));
+console.log(typeof("Welcome to Programiz!"));
+var name ="Osama";
+var age = 40;
+var c = true;
+console.log(name);
+console.log(age);
+console.log(c);
+let namex = "Osama";
+let agx  =40;
+let city = "Cairo";
+console.log(`my name is ${namex} my age is ${agx} city now is ${city}`);
+let header = "markup";
+let title = 'welcome pragrapg markup test';
+let markup = `
+<div class="main">
+   <div class="child">
+      <h2>${header}</h2>
+      <p>${title}</p>
+   </div>
+</div>
+`;
+document.write(markup);
+//console.log(markup);
+console.log(100==100);
+console.log(100!=100);
+console.log(200<100);
+console.log(200<=100);
+console.log(100>60);
+console.log(300<100);
+console.log(+"100");
+console.log(typeof(+"100"))
+console.log(+(-100));
+console.log(-(-100));
+var x;
+console.log(x);
+let namc=null;
+console.log(namc);
+var cc = "Osama";
+var cc ="ahmed";
+console.log(cc);
+// let my_var = "Osama muhmed";
+// let my_var = "OsamaX";
+// console.log(my_var);
+console.log(1e6);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MIN_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log((100).toString())
+console.log((100).toString())
+console.log((100).toString())
+// console.log(100..String());
+console.log(100.5678889.toFixed(2));
+my_val =100.78889.toFixed(2);
+console.log(typeof(my_val));
+console.log(parseInt("100 osama"));
+xdata = parseInt("100 osama");
+console.log(typeof(xdata));
+console.log(parseFloat("100.50 OsamaXD"));
+console.log(Number.isInteger(100.50));
+console.log(Math.round(100.80));
+console.log(Math.ceil(100.20));
+console.log(Math.floor(100.20));
+console.log(Math.trunc(99.70));
+console.log(Math.min(100,200,300,400));
+console.log(Math.max(100,200,300,400));
+let xcdata ="osama muhmed elsayed";
+console.log(xcdata[1]);
+console.log(xcdata[2]);
+console.log(xcdata.charAt(2));
+console.log(xcdata.charAt(1));
+console.log(xcdata.length);
+console.log(xcdata.toUpperCase());
+console.log(xcdata.toLowerCase());
+let xname = "  Ahmed  ";
+console.log(xname.trim().charAt(2).toUpperCase());
+let text = "Elzero web school";
+console.log(text.indexOf("web"));
+console.log(xname.slice(2,5));
+console.log(text.lastIndexOf("b"));
+console.log(xname.trim().repeat(2));
+console.log(text.split());
+console.log(text.split("",5));
+console.log(text.substring(1,4));
+console.log(text.substring(6,2));
+console.log(text.substring(text.length-1));
+console.log(text.includes("web"));
+console.log(text.startsWith("E"));
+console.log(text.startsWith("e"));
+console.log(text.startsWith("E",10));
+console.log(text.endsWith("l"));
+---------------------------------------------------------------------------------------------------------------------------------
+function sumadd(x,y)
+{
+    x=(x==undefined)?0:x;
+    y=(y==undefined)?0:y;
+    
+    return x + y;
+}
+
+sumadd(20,30);
+-----------------------------------------------------------------------------------------------------------------------------------------------
+var fun = function() {
+    //return arguments[0]+ arguments[1]
+    var sum =0;
+    for(let i =0; i<arguments.length;i++) {
+        sum+=arguments[i];
+    }
+    return sum;
+}
+console.log(fun(10,20,30,50));
+
+------------------------------------------------------------------------------------------------------------------------------------------
