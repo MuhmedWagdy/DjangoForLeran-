@@ -1,1 +1,2 @@
 welcome course full stuck django xo
+git log please check anything change or no 
