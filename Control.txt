@@ -29,3 +29,5 @@ admin pass
 pass hr #50608072
 
 
+
+http://de350f7fc6f1.sn.mynetname.net:8888/ link citrix
